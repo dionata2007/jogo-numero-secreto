@@ -1,0 +1,20 @@
+{
+    "configurations": [
+
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        },
+        
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "chrome",
+        "url": "file:///C:/Users/diona/Downloads/js-curso-2-aula1/index.html",
+        "webRoot": "${workspaceFolder}"
+    }
+    ]
+}
